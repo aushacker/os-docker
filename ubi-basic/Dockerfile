@@ -1,6 +1,8 @@
 FROM registry.access.redhat.com/ubi8/ubi
 
-RUN pwd && ls
+RUN pwd
+
+RUN ls
 
 CMD ["echo", "foo"]
 
